@@ -12,26 +12,22 @@ This project explores the most popular baby names in the United States from 2000
 
 ---
 
-## 🗂️ Project Structure
-
-- `README.md` – Project overview and documentation
-
-- `cleaned-data/`
-  - `us_baby_names.csv` – Combined dataset from 24 raw SSA files
-
-- `data/`
-  - (Not included in repo) Raw SSA files: `yob2000.txt` to `yob2023.txt`
-
-- `images/`
-  - `Dashboard.jpg` – Final dashboard preview
-  - `csv-file-execution.jpg` – Python script output preview
-
-- `scripts/`
-  - `us_baby_names.py` – Python script to process and merge the raw `.txt` files
-
-- `tableau/`
-  - `US-Baby-Name-popularity.twbx` – Tableau Packaged Workbook (interactive dashboard)
-
+## 📁 Project Structure
+```
+US-Baby-Name-Popularity/
+├── cleaned-data/
+│   └── us_baby_names.csv                     # Combined dataset from 24 raw SSA files
+├── data/                                     # Original SSA raw files (not included)
+│   └── yob2000.txt to yob2023.txt
+├── images/
+│   ├── Dashboard.jpg                         # Final dashboard preview
+│   └── csv-file-execution.jpg                # Python script output preview
+├── scripts/
+│   └── us_baby_names.py                      # Python script to process and merge data
+├── tableau/
+│   └── US-Baby-Name-popularity.twbx          # Tableau Packaged Workbook (interactive dashboard)
+└── README.md                                 # Project overview and documentation
+```
 
 ## 🛠 Tools & Technologies
 - **Python (Pandas)** – for data wrangling and merging 24 SSA `.txt` files into a unified dataset
