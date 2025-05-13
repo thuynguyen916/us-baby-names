@@ -35,14 +35,6 @@ US-Baby-Name-Popularity/
 
 ---
 
-## 📂 Files Included
-- `us_baby_names.py` – Python script to convert 24 raw `.txt` files to a cleaned CSV
-- `us_baby_names.csv` – Final dataset (output from script)
-- `US-Baby-Name-popularity.twbx` – Tableau workbook (packaged)
-- `yobXXXX.txt` – SSA raw files for each year (2000-2023)
-
----
-
 ## 📊 Interactive Dashboard
 Check it out here:  
 🔗 [US Baby Name Popularity (Tableau)](https://public.tableau.com/app/profile/thuy.nguyen8558/viz/USBabyNamepopularity/Dashboard)
